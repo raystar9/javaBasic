@@ -1,0 +1,30 @@
+1517878687200	Delete element
+1517879978735	Convert local variable 'i' to field
+1517880155059	Rename package 'ch1'
+1517880177471	Rename type 'Main'
+1517880197453	Rename type 'Test'
+1517880232285	Rename type 'day2'
+1517880245024	Rename type 'day1'
+1517880249493	Rename type 'day2_1'
+1517880254048	Rename type 'day2'
+1517882614867	Rename type 'day2_1'
+1517882622088	Rename type 'day2_2'
+1517887734069	Rename type 'day2_test1'
+1517888135012	Rename type 'KooMyeongHoe'
+1517893501750	Delete element
+1517893508822	Delete element
+1517893877976	Move compilation unit
+1517893880686	Delete element
+1517894003322	Rename type 'local_variable'
+1517894162100	Move compilation units
+1517894168865	Rename package 'week1'
+1517894183580	Rename type 'day1'
+1517894194384	Rename type 'day2_casting'
+1517894199160	Rename type 'day2_casting2'
+1517894204259	Rename type 'day2_constant'
+1517894209230	Rename type 'day2_import'
+1517894218501	Rename type 'day2_local_variable'
+1517894223534	Rename type 'day2_print'
+1517894228105	Rename type 'day2_test1'
+1517894234845	Rename type 'day2_variable'
+1517900781957	Rename type 'exam1'
