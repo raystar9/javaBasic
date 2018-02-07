@@ -3,7 +3,9 @@ package week1.day3;
 public class Assignment {
 	
 	public static void main(String[] args) {
-		char ch = '°¡';
+//		char ch = 'ï¿½ï¿½';
+		char ch = 'ê°€';
+		
 		System.out.println(ch);
 		
 		int num = ch;

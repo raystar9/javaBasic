@@ -6,7 +6,7 @@ public class Test {
 
 	public static void main(String args[]) {
 		
-		int a = 0, b = 0, c = 0;
+		int a = 0, b = 0, c = 0, max = 0, min = 0;
 		Scanner sc = new Scanner(System.in);
 		
 		a = sc.nextInt();
@@ -14,6 +14,9 @@ public class Test {
 		c = sc.nextInt();
 		sc.close();
 		
-		System.out.println(a > b? (a > c? a : b) : (b > c? b : c));
+		max = (a > b? (a > c? a : c) : (b > c? b : c));
+		min = (a < b? (a < c? a : c) : (b < c? b : c));
+		System.out.println("maximum of " + a + ", " + b + ", " + c + " is "+ max);
+		System.out.println("minimum of " + a + ", " + b + ", " + c + " is "+ min);
 	}
 }
