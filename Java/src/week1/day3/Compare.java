@@ -8,23 +8,23 @@ public class Compare {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Ã¹¹øÂ° °ªÀ» ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.println("Ã¹ï¿½ï¿½Â° ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½ : ");
 		int num1 = sc.nextInt();
-		System.out.println("µÎ¹øÂ° °ªÀ» ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.println("ï¿½Î¹ï¿½Â° ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½ : ");
 		int num2 = sc.nextInt();
 		
 		sc.close();
 		
 		if(num1 > num2) {
-			System.out.println("Ã¹ °ªÀÌ ´õ Å« °ªÀÔ´Ï´Ù.");
+			System.out.println("Ã¹ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ Å« ï¿½ï¿½ï¿½Ô´Ï´ï¿½.");
 		}
 		
 		else if (num2 > num1) {
-			System.out.println("µÎ¹ø¤Š °ªÀÌ ´õ Å« °ªÀÔ´Ï´Ù.");
+			System.out.println("ï¿½Î¹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ Å« ï¿½ï¿½ï¿½Ô´Ï´ï¿½.");
 			
 		}
 		else {
-			System.out.println("µÎ °ªÀÌ ÀÏÄ¡ÇÕ´Ï´Ù.");
+			System.out.println("ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½Õ´Ï´ï¿½.");
 		}
 		
 	}

@@ -10,15 +10,15 @@ public class Logics {
 		b = 5 > 7;
 		
 		if(a && b) {
-			System.out.println("a && b °¡ Âü");
+			System.out.println("a && b ï¿½ï¿½ ï¿½ï¿½");
 		}
 		
 		if(a || b) {
-			System.out.println("a || b °¡ Âü");
+			System.out.println("a || b ï¿½ï¿½ ï¿½ï¿½");
 		}
 		
 		else {
-			System.out.println("a || b °¡ °ÅÁþ");
+			System.out.println("a || b ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
 		}
 	}
 }
