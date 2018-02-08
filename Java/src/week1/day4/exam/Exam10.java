@@ -73,5 +73,6 @@ public class Exam10 {
 		default :
 			System.out.print("F¿‘¥œ¥Ÿ.\t");
 		}
+		sc.close();
 	}
 }
