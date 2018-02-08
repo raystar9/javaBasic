@@ -3,8 +3,8 @@ package week1.day3;
 public class Assignment {
 	
 	public static void main(String[] args) {
-//		char ch = '��';
-		char ch = '가';
+//		char ch = '占쏙옙';
+		char ch = '媛�';
 		
 		System.out.println(ch);
 		
