@@ -10,31 +10,31 @@ public class Exam11 {
 		Scanner sc = new Scanner(System.in);
 		
 		while(!city.equals("q")) {
-			System.out.print("지역을 입력해주세요 : ");
+			System.out.print("Input city name : ");
 			city = sc.nextLine();
 			switch(city) {
-			case "서울" :
-				System.out.println("서울입니다.");
+			case "seoul" :
+				System.out.println("you're in seoul.");
 				break;
-			case "대전" :
-				System.out.println("대전입니다.");
+			case "busan" :
+				System.out.println("you're in busan.");
 				break;
-			case "대구" :
-				System.out.println("대구입니다.");
+			case "daegu" :
+				System.out.println("you're in daegu.");
 				break;
-			case "부산" :
-				System.out.println("부산입니다.");
+			case "daejeon" :
+				System.out.println("you're in daejeon.");
 				break;
-			case "제주도" :
-				System.out.println("제주도입니다.");
+			case "jeju" :
+				System.out.println("you're in jeju.");
 				break;
 			case "q" :
 				break;
 			default :
-				System.out.println("그 외 지역입니다.");
+				System.out.println("not a city.");
 			}
 		}
 		sc.close();
-		System.out.println("종료합니다.");
+		System.out.println("quit.");
 	}
 }
