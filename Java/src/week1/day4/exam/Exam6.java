@@ -1,10 +1,11 @@
 package week1.day4.exam;
 
 public class Exam6 {
-
+	
 	public static void main(String[] args) {
 		
 		int startDate = 4;
+		int endDate = 28;
 		int date = 0;
 		
 		System.out.println("=====================================================");
@@ -16,7 +17,7 @@ public class Exam6 {
 					continue;
 				}
 				date = j * 7 + (i - startDate + 1);
-				if(date > 28)
+				if(date > endDate)
 					break;
 				System.out.print(date + "\t");
 			}
