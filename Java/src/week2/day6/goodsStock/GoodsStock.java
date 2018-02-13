@@ -8,6 +8,7 @@ public class GoodsStock {
 	public GoodsStock() {
 		
 	}
+
 	public GoodsStock(String goodsCode, int stockCount) {
 		_goodsCode = goodsCode;
 		_stockCount = stockCount;
@@ -23,6 +24,9 @@ public class GoodsStock {
 	
 	public void printStockCount() {
 		System.out.println(_stockCount);
-
+	}
+	
+	public void printGoodsCode() {
+		System.out.println(_goodsCode);
 	}
 }

@@ -17,7 +17,9 @@ public class Main {
 			numbers[i] = sc.nextInt();
 		}
 		
-		printMaxMin(numbers);
+		int[] result = maxMin(numbers);
+		System.out.println("max = " + result[0]);
+		System.out.println("min = " + result[1]);
 		sc.close();
 	}
 	
@@ -28,7 +30,8 @@ public class Main {
 			return number;
 	}
 	
-	private static void printMaxMin(int[] numbers) {
+	private static int[] maxMin(int[] numbers) {
+		int[] result = new int[2];
 		int max = numbers[0];
 		int min = numbers[0];
 		
@@ -40,7 +43,8 @@ public class Main {
 				min = numbers[i];
 			}
 		}
-		System.out.println("max = " + max);
-		System.out.println("min = " + min);
+		result[0] = max;
+		result[1] = min;
+		return result;
 	}
 }

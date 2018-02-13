@@ -4,10 +4,11 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		GoodsStock gs = new GoodsStock();
-		gs.addStock(3);
-		gs.addStock(2);
+		GoodsStock gs = new GoodsStock("52135", 200);
+		gs.printStockCount();
+		gs.addStock(1000);
 		
 		gs.printStockCount();
+		gs.printGoodsCode();
 	}
 }
