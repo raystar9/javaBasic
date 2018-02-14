@@ -10,8 +10,10 @@ public class Main {
 	
 		printSubscriberInfo(james);
 		james.changeAddress("kangnam");
-
 		printSubscriberInfo(james);
+		
+		printSubscriberInfo(koo);
+		printSubscriberInfo(hong);
 	}
 	
 	private static void printSubscriberInfo(SubscriberInfo subscribeInfo) {
