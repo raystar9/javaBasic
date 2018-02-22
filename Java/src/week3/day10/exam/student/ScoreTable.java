@@ -1,4 +1,4 @@
-package week3.day09.test;
+package week3.day10.exam.student;
 
 class ScoreTable {
 	public static void main(String[] args) {

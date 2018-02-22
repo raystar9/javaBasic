@@ -1,4 +1,4 @@
-package week3.day09.test;
+package week3.day10.exam.student;
 
 class Statistics {
 	//region singleton
@@ -63,10 +63,46 @@ class Statistics {
 		}
 	}
 	
+	public void sortByEnglish() {
+		sort(new FunctionPointer() {
+			@Override
+			public int func(int i) {
+				return _students[i].getEng();
+			}
+		});
+	}
+
+	public void sortByKorean() {
+		sort(new FunctionPointer() {
+			@Override
+			public int func(int i) {
+				return _students[i].getKor();
+			}
+		});
+	}
+
+	public void sortByMath() {
+		sort(new FunctionPointer() {
+			@Override
+			public int func(int i) {
+				return _students[i].getMath();
+			}
+		});
+	}
+
 	public void sortByTotal() {
+		sort(new FunctionPointer() {
+			@Override
+			public int func(int i) {
+				return getStudentTotal(i);
+			}
+		});
+	}
+	
+	public void sort(FunctionPointer fp) {
 		for(int j = 0; j < _students.length - 1; j++) {
 			for(int i = 0; i < _students.length - 1 - j; i++) {
-				if(getStudentTotal(i) < getStudentTotal(i + 1)) {
+				if(fp.func(i) < fp.func(i + 1)) {
 					swap(i, i+1);
 				}
 			}
@@ -77,5 +113,8 @@ class Statistics {
 		Student temp = _students[i];
 		_students[i] = _students[j];
 		_students[j] = temp;
+	}
+	private interface FunctionPointer {
+		int func(int i);
 	}
 }
