@@ -1,2 +1,5 @@
-/week3/
-/week4/
+/.gitignore
+/.classpath
+/.project
+/.settings/
+/some.txt

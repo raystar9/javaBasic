@@ -8,5 +8,4 @@ class MaxMinMain {
 
 		System.out.println(Integer.BYTES);
 	}
-
 }
