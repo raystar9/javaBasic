@@ -18,15 +18,15 @@ class WorldClock {
 		
 		
 		
-//		TimeZone timeZoneHK = TimeZone.getTimeZone("HongKong");
-//		TimeZone timeZoneParis = TimeZone.getTimeZone("Europe/Paris");
+		TimeZone timeZoneHK = TimeZone.getTimeZone("HongKong");
+		TimeZone timeZoneParis = TimeZone.getTimeZone("Europe/Paris");
 
-		gc.setTimeZone(timeZoneNY);
-		System.out.println("NewYork : " );
-//		gc.setTimeZone(timeZoneHK);
-//		System.out.println("HongKong : " + df.format(gc.getTime()));
-//		gc.setTimeZone(timeZoneParis);
-//		System.out.println("Paris : " + df.format(gc.getTime()));
+		df.setTimeZone(timeZoneNY);
+		System.out.println("NewYork : " + df.format(gc.getTime()));
+		df.setTimeZone(timeZoneHK);
+		System.out.println("HongKong : " + df.format(gc.getTime()));
+		df.setTimeZone(timeZoneParis);
+		System.out.println("Paris : " + df.format(gc.getTime()));
 
 	}
 
