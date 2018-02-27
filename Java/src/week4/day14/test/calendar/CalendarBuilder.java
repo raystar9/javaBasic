@@ -13,7 +13,7 @@ public class CalendarBuilder {
 		calendar.add(Calendar.MONTH, 1);
 		calendar.add(Calendar.DAY_OF_MONTH, -1);
 		endDate = calendar.get(Calendar.DAY_OF_MONTH);
-
+		
 		for(int j = 0; j < 6; j++) {
 			for(int i = 0; i < 7; i++) {
 				date = (j * 7 +i - startDayOfWeek + 2);
